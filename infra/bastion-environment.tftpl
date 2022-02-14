@@ -1,0 +1,5 @@
+export AWS_DEFAULT_REGION=us-east-1
+export PGHOST=${db_host}
+export PGPASSWORD="$(aws ssm get-parameter --name "${ssm_db_param_path}" --with-decryption | jq .Parameter.Value | xargs echo)"
+export PGUSER=${db_username}
+export PGDATABASE=${db_name}

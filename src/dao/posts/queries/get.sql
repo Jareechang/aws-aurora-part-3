@@ -1,0 +1,3 @@
+SELECT *
+FROM post
+WHERE $1;
