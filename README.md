@@ -1,8 +1,8 @@
 # AWS Technical series (Setting up bastion host and database)
 
-Part 2 of the [AWS Aurora Technical Series](https://www.jerrychang.ca/writing/aws-aurora-technical-series#5-aws-aurora---integration-with-aws-ecs).
+Part 3 of the [AWS Aurora Technical Series](https://www.jerrychang.ca/writing/aws-aurora-technical-series).
 
-To see the module, please visit [AWS Aurora Technical Series Part II - AWS Aurora & VPC](https://www.jerrychang.ca/writing/aws-aurora-technical-series-bastion-host)
+To see the module, please visit [AWS Aurora Technical Series Part III - PostgreSQL data modelling](https://www.jerrychang.ca/writing/aws-aurora-technical-series-postgresql-data-modelling)
 
 ## Getting started
 
