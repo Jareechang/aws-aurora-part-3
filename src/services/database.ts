@@ -26,9 +26,8 @@ const pool = new Pool(config);
 
 export function getCert(): string {
   const root = process.env.GITHUB_WORKSPACE || process.cwd();
-  console.log(`debug using path: ${root}/AmazonRootCA1.pem`);
   return fs.readFileSync(
-    path.join(root, './AmazonRootCA1.pem')
+    path.join(root, './global-bundle.pem')
   ).toString();
 }
 

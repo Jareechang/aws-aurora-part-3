@@ -4,7 +4,7 @@ export default async(req, res) => {
   let results = null;
   let error = null;
   try {
-    const rows = await Posts.getBySlug('pre-rendering');
+    const rows = await Posts.getAll();
     results = rows;
   } catch (err) {
     error = err;
